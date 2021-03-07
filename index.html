@@ -1,0 +1,110 @@
+<style>
+    input.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 40px;
+        border-radius: 25px;
+    }
+
+    input:hover {
+        box-shadow: 0px 0px 5px 1px #888888;
+    }
+
+    button.body {
+        display: inline-block;
+        margin: auto;
+        padding: 5px 10px 5px 10px;
+        color: gray;
+    }
+
+    .button-container {
+        text-align: center;
+        padding: 35px;
+    }
+
+    img {
+        padding: 190px 0px 30px 0px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 12px 5px;
+        font-size: 15px;    
+    }
+
+    li {
+        display: inline;
+        float: left;
+    }
+
+    li a {
+        text-decoration: none;
+        color: black;
+        padding: 100px 10px 10px 10px;
+    }
+
+    li:hover {
+        text-decoration: underline;
+    }
+
+    #sign-in {
+        background-color: blue;
+        color: white;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(209, 209, 209);
+        color: gray;
+        text-align: center;
+    }
+
+</style>
+
+
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+            <li style="float:right"><button id="sign-in"><a href="#"><strong>Sign In</strong></a></button></li>
+            <li style="float:right"><a class="block" alt="Google apps" href="#"></a></li>
+            <li style="float:right"><a href="#">Images</a></li>
+            <li style="float:right"><a href="#">Gmail</a></li>             
+        </ul>
+    </nav>
+
+    <main>
+    <body>
+        <div>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"/>
+        </div>
+        <div>
+            <input class="center" id="search-bar" name="search-bar" type="text"/>
+        </div>       
+        <div class="button-container">
+            <button class="body" id="search-button" name="search-button">Google Search</button>
+            <button class="body" id="feeling-lucky" name="feeling-lucky">I'm Feeling Lucky</button>
+        </div>
+    </body>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search works</a></li>
+                <li style="float:right"><a href="#">Settings</a></li>
+                <li style="float:right"><a href="#">Terms</a></li>
+                <li style="float:right"><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+    </footer>
+</main>
